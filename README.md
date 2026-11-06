@@ -1,4 +1,4 @@
-# Semear Kids — Site institucional
+# Semear Kids — Site institucional - Recreação e Oficinas
 
 Next.js 15 (App Router) · React 19 · TypeScript · Tailwind CSS · Framer Motion · Lucide Icons.
 Base padrão Aster Web Studio, exportada como site estático para o GitHub Pages.
