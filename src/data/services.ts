@@ -21,17 +21,27 @@ export const services: ServiceItem[] = [
     title: "Oficinas criativas",
     description:
       "Slime, pintura de gesso, bolha mágica, miçangas, pintura de quadro, cabelo maluco e muito mais. Cada criança leva uma criação feita por ela.",
-    image: "/images/oficinas-gerais.webp",
+    image: "/images/oficinas-criativas-1.webp",
     imageAlt: "Lista de oficinas criativas da Semear Kids: slime, gesso, bolha mágica, miçangas, quadro e cabelo maluco",
     highlights: [
-      "Oficina de slime",
-      "Pintura de gesso",
-      "Bolha mágica",
-      "Miçangas",
-      "Pintura de quadro",
-      "Cabelo maluco",
       "Boneco ecológico",
+      "Oficina de slime",
       "Oficina de argila",
+      "Pintura de gesso",
+    ],
+  },
+    {
+    id: "oficinas",
+    title: "Oficinas criativas",
+    description:
+      "Slime, pintura de gesso, bolha mágica, miçangas, pintura de quadro, cabelo maluco e muito mais. Cada criança leva uma criação feita por ela.",
+    image: "/images/oficinas-criativas-2.webp",
+    imageAlt: "Lista de oficinas criativas da Semear Kids: slime, gesso, bolha mágica, miçangas, quadro e cabelo maluco",
+    highlights: [
+      "Bolha Mágica",
+      "Miçangas",
+      "Pintura de Quadro",
+      "Cabelo Maluco",
     ],
   },
   {
