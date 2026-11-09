@@ -32,13 +32,13 @@ export function ServicesSection() {
             <li key={service.id}>
               <Reveal delay={index * 0.1} className="h-full">
                 <Card interactive className="flex h-full flex-col overflow-hidden">
-                  <div className="relative aspect-square overflow-hidden bg-primary-soft">
+                  <div className="relative aspect-[5/6] overflow-hidden bg-primary-soft">
                     <AppImage
                       src={service.image}
                       alt={service.imageAlt}
                       fill
                       sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
-                      className="object-cover object-top transition-transform duration-700 hover:scale-105"
+                      className="h-full w-full object-cover object-center transition-transform duration-700 hover:scale-105"
                     />
                     {service.badge && (
                       <Badge tone="accent" className="absolute left-4 top-4 shadow-soft">
