@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { ZoomIn } from "lucide-react";
 import { AppImage } from "@/components/common/AppImage";
 import { Modal } from "@/components/ui/Modal";
 import type { GalleryItem } from "@/types";
@@ -23,7 +22,7 @@ export function GalleryGrid({ items }: GalleryGridProps) {
               type="button"
               onClick={() => setActive(item)}
               aria-label={`Ampliar imagem: ${item.alt}`}
-              className="group relative block w-full overflow-hidden rounded-[2rem] border border-primary/10 bg-white shadow-soft transition-all duration-300 hover:-translate-y-1 hover:shadow-lift"
+              className="relative block w-full overflow-hidden rounded-[2rem] border border-primary/10 bg-primary-soft shadow-soft"
             >
               <AppImage
                 src={item.src}
@@ -31,14 +30,8 @@ export function GalleryGrid({ items }: GalleryGridProps) {
                 width={item.width}
                 height={item.height}
                 sizes="(min-width: 1024px) 360px, (min-width: 640px) 45vw, 92vw"
-                className="h-auto w-full transition-transform duration-700 group-hover:scale-[1.03]"
+                className="block h-auto w-full bg-primary-soft"
               />
-              <span
-                aria-hidden
-                className="absolute bottom-4 right-4 grid h-11 w-11 place-items-center rounded-full bg-white/90 text-primary-dark opacity-0 shadow-soft transition group-hover:opacity-100 group-focus-visible:opacity-100"
-              >
-                <ZoomIn className="h-5 w-5" />
-              </span>
             </button>
           </li>
         ))}

@@ -31,7 +31,7 @@ export const services: ServiceItem[] = [
     ],
   },
     {
-    id: "oficinas",
+    id: "oficinas-2",
     title: "Oficinas criativas",
     description:
       "Slime, pintura de gesso, bolha mágica, miçangas, pintura de quadro, cabelo maluco e muito mais. Cada criança leva uma criação feita por ela.",
