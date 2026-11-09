@@ -36,11 +36,4 @@ export const galleryItems: GalleryItem[] = [
     width: 1199,
     height: 1312,
   },
-  {
-    id: "oficinas-gerais",
-    src: "/images/oficinas-gerais.webp",
-    alt: "Lista de oficinas da Semear Kids com muito mais para o seu evento",
-    width: 1200,
-    height: 1200,
-  },
 ];
