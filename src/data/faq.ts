@@ -23,7 +23,7 @@ export const faqItems: FaqItem[] = [
     id: "recreadores",
     question: "Quantos recreadores acompanham o evento?",
     answer:
-      "Cada plano conta com 02 recreadores. Se precisar de reforço, é possível incluir recreadores adicionais mediante consulta.",
+      "Cada plano conta com 1 a 2 recreadores. Se precisar de reforço, é possível incluir recreadores adicionais mediante consulta.",
   },
   {
     id: "oficinas",

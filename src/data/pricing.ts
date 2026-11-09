@@ -60,6 +60,6 @@ export const pricingPlans: PricingPlan[] = [
 export const pricingNotes: string[] = [
   "Crianças adicionais são cobradas separadamente.",
   "O tempo excedente é cobrado à parte.",
-  "Quantidade de recreadores: 02.",
+  "Quantidade de recreadores: 01 a 02.",
   "Recreador adicional sob consulta.",
 ];
